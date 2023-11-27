@@ -45,7 +45,6 @@ function Navbar(){
             <p className="text-gray-200 font-bold text-2xl hover:scale-105 hover:text-red-600 transition-all duration-300 hover:cursor-pointer">COMMENTS</p>
             <p className="text-gray-200 font-bold text-2xl hover:scale-105 hover:text-red-600 transition-all duration-300 hover:cursor-pointer">CONTACT</p>
         </div>
-        <img src="/src/assets/BBS-Logo.png" className="p-0 m-auto lg:scale-1105" />
     </nav>
 
     )
