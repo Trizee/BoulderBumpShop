@@ -1,25 +1,18 @@
-import {
-  createBrowserRouter,
-  RouterProvider,
-  createRoutesFromElements,
-  Route,
-} from "react-router-dom";
-import RootLayout from "./Layout/RootLayout";
+import Navbar from "./Layout/Navbar"
+import Footer from "./Layout/Footer"
+import Home from "./Pages/Home"
 
 function App() {
 
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <Route path="/" element={<RootLayout />}>
-      </Route>
-    )
-  )
 
   return (
-    <>
-      <RouterProvider router={router} />
-    </>
+    <div className="bg-gray-700">
+      <Navbar />
+      <Home />
+      <Footer />
+    </div>
   )
 }
 
 export default App
+
