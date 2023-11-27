@@ -3,11 +3,11 @@ import React from 'react'
 function About() {
     return (
         <section id='about' >
-            <div className="container flex max-w-6xl mx-auto my-32 px-6 text-gray-900 bg-gray-700">
+            <div className="container flex max-w-6xl mx-auto mb-10 px-6 text-white bg-gray-700">
                 <img src="images/desktop/image-interactive.jpg" alt="" />
                 <div className=" ">
                     <h2
-                        className="max-w-lg mt-10 mb-6 font-sans text-4xl text-center text-gray-900 uppercase ">
+                        className="max-w-lg mt-10 mb-6 font-bold text-4xl text-center uppercase ">
                         About
                     </h2>
                     <p className="max-w-md text-center">
