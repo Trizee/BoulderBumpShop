@@ -31,8 +31,12 @@ function Navbar(){
                 }`}
             />
         </button>
-        {isOpen? <div className="bg-blend-darken">
-            <p></p>
+        {isOpen? <div className="bg-blend-darken z-10 h-full">
+            <p className="text-white">ABOUT</p>
+            <p className="text-white">SERVICES</p>
+            <p className="text-white">OUR WORK</p>
+            <p className="text-white">COMMENTS</p>
+            <p className="text-white">CONTACT</p>
         </div>: null}
         <div className="fixed hidden md:flex w-full justify-evenly mt-8 top-0 ">
             <p className="text-gray-200 font-bold text-2xl hover:scale-105 hover:text-red-600 transition-all duration-200 hover:cursor-pointer">ABOUT</p>
