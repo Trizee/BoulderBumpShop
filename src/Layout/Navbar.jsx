@@ -17,17 +17,17 @@ function Navbar(){
         >
             <div
                 className={`bg-gray-200 block w-8 h-[0.25rem] rounded transition-all origin-[1px] ${
-                    isOpen ? 'rotate-45' : 'rotate-0'
+                    isOpen ? 'rotate-[45deg] w-9' : 'rotate-0'
                 }`}
             />
             <div
                 className={`bg-gray-200 block w-8 h-[0.25rem] rounded transition-all origin-[1px] ${
-                    isOpen ? 'translate-x-full h-0 w-0' : 'translate-x-0'
+                    isOpen ? 'translate-x-full opacity-0' : 'translate-x-0'
                 }`}
             />
             <div
                 className={`bg-gray-200 block w-8 h-[0.25rem] rounded transition-all origin-[1px] ${
-                    isOpen ? 'rotate-[-42deg]' : 'rotate-0'
+                    isOpen ? 'rotate-[-45deg] w-9' : 'rotate-0'
                 }`}
             />
         </button>
