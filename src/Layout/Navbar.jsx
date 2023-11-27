@@ -48,7 +48,6 @@ function Navbar(){
         <img src="/src/assets/BBS-Logo.png" className="p-0 m-auto lg:scale-1105" />
     </nav>
 
-        
     )
 
 }
