@@ -50,13 +50,10 @@ function Footer() {
             </div>
             <div className="flex flex-col w-full md:w-1/3">
                 <div className="mb-4">
-                    <h2 className="text-2xl font-bold text-white">Information</h2>
+                    <h2 className="text-4xl font-bold text-white mb-2">Information</h2>
                     <div className="mb-4">
                         <h2 className="text-xl font-bold text-white">Address</h2>
-                        <p
-                            className="text-white
-            "
-                        >
+                        <p className="text-white">
                             Boulder Bump Shop
                         </p>
                         <p className="text-white">2480 49th Street, Unit A</p>
