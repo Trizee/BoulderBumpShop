@@ -2,6 +2,9 @@ function Footer() {
     return (
         <div className="flex flex-col md:flex-row w-full bg-gray-800 pt-10 pb-20">
             <div className="flex flex-col w-full md:w-2/3">
+                <div className="max-w-md mx-auto text-white font-bold text-4xl pb-4">
+                    <p>Contact Us!</p>
+                </div>
                 <form className="max-w-md mx-auto text-white">
                     <div className="mb-4">
                         <label className="block font-bold text-2xl mb-2" htmlFor="name">
