@@ -12,7 +12,7 @@ function Navbar() {
 
         <nav className="w-full bg-gray-950">
             <div class="float-right md:hidden">
-                <button onClick={handleClick} id="menu-btn" type="button" className="z-40 block hamburger focus:outline-none mr-2 mt-5">
+                <button onClick={handleClick} id="menu-btn" type="button" className="z-40 block hamburger focus:outline-none mr-5 mt-5">
                     <span class="hamburger-top"></span>
                     <span class="hamburger-middle"></span>
                     <span class="hamburger-bottom"></span>
@@ -43,7 +43,7 @@ function Navbar() {
                 <p className="text-white">COMMENTS</p>
                 <p className="text-white">CONTACT</p>
             </div> : null}
-            <div className="fixed hidden md:flex w-full justify-evenly mt-8 top-0 ">
+            <div className="fixed hidden md:flex w-full justify-evenly pt-5 pb-5 top-0 bg-gray-950">
                 <a href="#about"><p className="text-gray-200 font-bold text-2xl hover:scale-105 hover:text-red-600 transition-all duration-200 hover:cursor-pointer">ABOUT</p></a>
                 <a href=" #services"><p className="text-gray-200 font-bold text-2xl hover:scale-105 hover:text-red-600 transition-all duration-300 hover:cursor-pointer">SERVICES</p></a>
                 <p className="text-gray-200 font-bold text-2xl hover:scale-105 hover:text-red-600 transition-all duration-300 hover:cursor-pointer">OUR WORK</p>
