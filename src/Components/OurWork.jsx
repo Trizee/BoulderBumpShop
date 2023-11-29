@@ -5,7 +5,7 @@ function OurWork() {
         <>
             <section id='ourWork'>
                 <div className='w-full bg-gray-900 grid-cols-5 md:grid'>
-                    <div className='col-span-3 '>
+                    <div className='col-span-3 md:my-10'>
                         <div className='m-0 md:m-5 lg:m-10'>
                             <h2
                                 className="font-bold text-4xl text-center uppercase tracking-wide p-5 text-gray-200">
@@ -16,7 +16,7 @@ function OurWork() {
                             </p>
                         </div>
                     </div>
-                    <div className='col-span-2 h-full flex md:flex-wrap md:flex-row my-auto'>
+                    <div className='col-span-2 h-full flex md:flex-wrap md:flex-row'>
                         <div className="m-2 shadow-md shadow-gray-200 h-fit w-1/4 overflow-hidden">
                             <img src="/assets/IMG_0355.jpg" alt="" className="hover:scale-110  h-fit w-fit transition-all duration-300" />
                         </div>

@@ -25,7 +25,7 @@ function Navbar() {
 
     return (
         
-        <nav className={`w-full ${isTop ? 'md:bg-gray-950' : 'md:bg-transparent'} fixed top-2 transition-all h-20 rounded-3xl`}>
+        <nav className={`w-full ${isTop ? 'md:bg-gray-950' : 'md:bg-transparent'} hover:bg-gray-950 fixed top-0 transition-all h-20 rounded-3xl`}>
             <div class="float-right md:hidden">
                 <button onClick={handleClick} id="menu-btn" type="button" className="z-40 block hamburger focus:outline-none mr-5 mt-5">
                     <span class="hamburger-top"></span>
