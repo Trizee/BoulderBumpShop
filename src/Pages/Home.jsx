@@ -11,6 +11,8 @@ function Home() {
         <About />
         <BorderBar />
         <Services />
+        <BorderBar />
+        
     </>
   )
 }

@@ -6,7 +6,7 @@ function About() {
             <div className="container flex max-w-6xl max-h-[500px] mx-auto mb-10 px-6 text-white bg-gray-700">
                 <div className="">
                     <h2
-                        className="max-w-lg mt-10 mb-6 font-bold text-4xl text-center uppercase ">
+                        className="max-w-lg mt-10 mb-6 font-bold text-4xl text-center uppercase">
                         About
                     </h2>
                     <p className="max-w-md text-center">
@@ -22,3 +22,6 @@ function About() {
 }
 
 export default About
+
+
+
