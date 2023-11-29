@@ -1,12 +1,13 @@
+// import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 
 function Services() {
     return (
         <section id='services' >
-            <div className="container flex flex-col md:flex-row max-w-6xl mx-auto mt-16 mb-8 px-6 text-gray-900 bg-gray-700 max-h-[500px]">
+            <div className="container flex flex-col md:flex-row max-w-6xl mx-auto mt-16 mb-8 px-6 text-white bg-gray-700 max-h-[500px]">
                 <img src="../../assets/jer.jpg" alt="" className="w-1/2 mx-10 mt-10" />
                 <div className=" ">
                     <h2
-                        className="max-w-lg mt-10 mb-6 font-sans text-4xl text-center text-gray-900 uppercase ">
+                        className="max-w-lg mt-10 mb-6 font-sans text-4xl text-center uppercase ">
                         Services
                     </h2>
                     <p className="max-w-md text-center my-2">
@@ -23,26 +24,25 @@ function Services() {
                     </p>
                 </div>
             </div>
-            <div className="flex flex-col max-w-6xl mx-auto">
+            <div className="flex flex-col max-w-6xl mx-auto text-white">
                 <h2
-                    className="max-w-lg mt-10 font-sans text-4xl text-center text-gray-900 uppercase ">
+                    className="max-w-lg mt-10 font-sans text-4xl text-center uppercase ">
                     We Offer
                 </h2>
-                <div className=" mx-auto pl-40">
+                <div className="mx-auto pl-40">
                     <ul className="flex flex-wrap list-disc">
-                        <li className="m-4 text-white">Servicing Foreign and Domestic Vehicles</li>
-                        <li className="m-4 text-white" >Servicing Foreign and Domestic Vehicles</li>
-                        <li className="m-4 text-white">Servicing Foreign and Domestic Vehicles</li>
-                        <li className="m-4 text-white">Servicing Foreign and Domestic Vehicles</li>
-                        <li className="m-4 text-white">Servicing Foreign and Domestic Vehicles</li>
-                        <li className="m-4 text-white">Servicing Foreign and Domestic Vehicles</li>
-                        <li className="m-4 text-white">Servicing Foreign and Domestic Vehicles</li>
-                        <li className="m-4 text-white">Servicing Foreign and Domestic Vehicles</li>
-                        <li className="m-4 text-white">Servicing Foreign and Domestic Vehicles</li>
-                        <li className="m-4 text-white">Servicing Foreign and Domestic Vehicles</li>
-                        <li className="m-4 text-white">Servicing Foreign and Domestic Vehicles</li>
-                        <li className="m-4 text-white">Servicing Foreign and Domestic Vehicles</li>
-
+                        <li className="m-4"> Servicing Foreign and Domestic Vehicles</li>
+                        <li className="m-4">Over 40 years Experience</li>
+                        <li className="m-4">Auto Collision Repair</li>
+                        <li className="m-4">Waterborene Painte Services</li>
+                        <li className="m-4">Servicing Foreign and Domestic Vehicles</li>
+                        <li className="m-4">Servicing Foreign and Domestic Vehicles</li>
+                        <li className="m-4">Servicing Foreign and Domestic Vehicles</li>
+                        <li className="m-4">Servicing Foreign and Domestic Vehicles</li>
+                        <li className="m-4">Servicing Foreign and Domestic Vehicles</li>
+                        <li className="m-4">Servicing Foreign and Domestic Vehicles</li>
+                        <li className="m-4">Servicing Foreign and Domestic Vehicles</li>
+                        <li className="m-4">Servicing Foreign and Domestic Vehicles</li>
                     </ul>
                 </div>
 
