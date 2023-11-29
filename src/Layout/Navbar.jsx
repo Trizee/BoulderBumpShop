@@ -34,11 +34,11 @@ function Navbar() {
                 </button>
             </div>
             {isOpen ? <div className="bg-blend-darken z-10 h-full md:hidden">
-                <a href="#about"><p className="text-white">ABOUT</p></a>
-                <a href="#services"><p className="text-white">SERVICES</p></a>
-                <p className="text-white">OUR WORK</p>
-                <p className="text-white">COMMENTS</p>
-                <p className="text-white">CONTACT</p>
+                <a href="#about"><p className="text-gray-200">ABOUT</p></a>
+                <a href="#services"><p className="text-gray-200">SERVICES</p></a>
+                <p className="text-gray-200">OUR WORK</p>
+                <p className="text-gray-200">COMMENTS</p>
+                <p className="text-gray-200">CONTACT</p>
             </div> : null}
             <div className={`font-serif fixed hidden md:flex w-full justify-evenly mt-8 top-0 ${!isTop && 'opacity-50 hover:opacity-100'} transition-opacity duration-300`}>
                 <a href="#about"><p className="text-gray-200 font-bold text-2xl hover:scale-105 hover:text-red-600 transition-all duration-200 hover:cursor-pointer">ABOUT</p></a>
