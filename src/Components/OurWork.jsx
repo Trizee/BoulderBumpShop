@@ -3,7 +3,7 @@ import React from 'react'
 function OurWork() {
     return (
         <>
-            <section id='about'>
+            <section id='ourWork'>
                 <div className='w-full bg-gray-900 grid-cols-5 md:grid'>
                     <div className='col-span-3 '>
                         <div className='m-0 md:m-5 lg:m-10'>

@@ -43,7 +43,7 @@ function Navbar() {
             <div className={`font-serif fixed hidden md:flex w-full justify-evenly mt-8 top-0 ${!isTop && 'opacity-50 hover:opacity-100'} transition-opacity duration-300`}>
                 <a href="#about"><p className="text-gray-200 font-bold text-2xl hover:scale-105 hover:text-red-600 transition-all duration-200 hover:cursor-pointer">ABOUT</p></a>
                 <a href=" #services"><p className="text-gray-200 font-bold text-2xl hover:scale-105 hover:text-red-600 transition-all duration-300 hover:cursor-pointer">SERVICES</p></a>
-                <p className="text-gray-200 font-bold text-2xl hover:scale-105 hover:text-red-600 transition-all duration-300 hover:cursor-pointer">OUR WORK</p>
+                <a href="#ourWork"><p className="text-gray-200 font-bold text-2xl hover:scale-105 hover:text-red-600 transition-all duration-300 hover:cursor-pointer">OUR WORK</p></a>
                 <p className="text-gray-200 font-bold text-2xl hover:scale-105 hover:text-red-600 transition-all duration-300 hover:cursor-pointer">COMMENTS</p>
                 <p className="text-gray-200 font-bold text-2xl hover:scale-105 hover:text-red-600 transition-all duration-300 hover:cursor-pointer">CONTACT</p>
             </div>
